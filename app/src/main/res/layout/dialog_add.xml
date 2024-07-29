@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!-- dialog_update_car.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custtomedit"
+        android:hint="name distributor"
+        android:padding="10dp" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+
+
+</LinearLayout>
